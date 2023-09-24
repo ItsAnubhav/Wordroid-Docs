@@ -1,28 +1,31 @@
-# Getting Started
+---
+description: >-
+  This page contains all the necessary things required to get your app running
+  in android and iOS devices.
+---
+
+# Requirements
+
+### Basic Requirements
+
+1. FireBase Account. ([https://firebase.google.com/](https://firebase.google.com/))
+2. OneSingal Account. ([https://onesignal.com/](https://onesignal.com/))
+3. A WordPress Blog.
 
 {% hint style="info" %}
-Skip "**Register your app with the WorDroid Dashboard**" step if you are using app version 4.2 or higher
+Currently this app does not work with flutter version 2.0 and above (**Android and iOS apps can be generated without any problem**). An Update will be provided with flutter 2 support.
 {% endhint %}
 
-* [ ] Register your app with the WorDroid Dashboard
-  * [ ] Register on site
-  * [ ] Add your unique Item Purchase Code
-  * [ ] Add your site
-  * [ ] Add Nav Drawer and Bottom Nav items
-  * [ ] Customise basic app features
-* [ ] Install Wordpress Plugin
-  * [ ] Install the plugin to wordpress
-  * [ ] Activate the WorDroid Plugin
-  * [ ] Add Sections in the WorDroid Plugin
-  * [ ] Add OneSignal App ID and REST API Key
-* [ ] Import app in Android Studio
-  * [ ] Import the app in Android Studio
-  * [ ] Change Package Name
-  * [ ] Add Site URL, YouTube Chanel ID etc
-  * [ ] Add OneSingal ID
-  * [ ] Add AdMob ID
-  * [ ] Enable deeplinking
-  * [ ] Test the app
-  * [ ] Generating Signed APK
-*   [ ] Upload APK to play store
+### Building for Android
 
+1. Windows / macOS / Linux OS
+2. Android Studio (recomended)
+3. Flutter SDK (version 1.22.6)
+4. Play store account
+
+### Building For iOS
+
+1. macOS
+2. XCode
+3. Flutter SDK (version 1.22.6)
+4. Apple developer account
